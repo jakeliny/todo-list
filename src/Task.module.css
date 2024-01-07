@@ -1,0 +1,55 @@
+.task {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: .75rem;
+
+}
+
+.taskCheckbox {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.taskCheckbox .check {
+  color: var(--green-dark);
+}
+
+.taskCheckbox .check:hover {
+  color: var(--green);
+}
+
+.taskCheckbox .circle {
+  color: var(--pink)
+}
+
+.taskCheckbox .circle:hover {
+  color: var(--pink-dark)
+}
+
+.taskName {
+  flex-grow: 1;
+  font-size: .875rem;
+}
+
+.taskCompleted .taskName {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.action button {
+  border: 0;
+  background-color: transparent;
+  color: var(--gray-300);
+  cursor: pointer;
+}
+
+.action button:hover {
+  color: var(--danger);
+  background-color: var(--gray-400);
+}

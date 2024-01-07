@@ -1,0 +1,20 @@
+.tasksEmpty {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.tasksEmpty p svg {
+  font-size: 5rem;
+  opacity: .4;
+}
+
+.tasksEmpty p {
+  font-size: 1rem;
+  color: var(--gray-300);
+}
